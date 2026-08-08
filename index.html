@@ -278,7 +278,7 @@ footer a:hover{color:var(--acc)}
     <div>
       <h3>Retrieval over five years of ERP financial history</h3>
       <p>A hotel group had five years of financial data spread across their ERP installs, and nobody could ask it a question without waiting a week for a report. I reconciled the tables with their accountant, embedded everything into a vector store, and put a chat interface and text-to-SQL on top. Their board uses it.</p>
-      <div class="tags"><span class="tag">OpenAI embeddings</span><span class="tag">Qdrant</span><span class="tag">pgvector</span><span class="tag">MindsDB</span><span class="tag">text-to-SQL</span></div>
+      <div class="tags"><span class="tag">embeddings</span><span class="tag">Qdrant</span><span class="tag">pgvector</span><span class="tag">MindsDB</span><span class="tag">text-to-SQL</span></div>
     </div>
   </article>
 
@@ -295,8 +295,8 @@ footer a:hover{color:var(--acc)}
     <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg></div>
     <div>
       <h3>Self-hosted GPU inference platform</h3>
-      <p>Three quantized models co-tenanted on a single NVIDIA GB10 — including a 32B vision-language model — with memory budgets and KV-cache sizes tuned by hand. Serves the engineering teams of three companies, with a mesh VPN, edge routing and tracing so we can see what the models did.</p>
-      <div class="tags"><span class="tag">vLLM</span><span class="tag">Ollama</span><span class="tag">AWQ / QAT</span><span class="tag">Headscale</span><span class="tag">Traefik</span><span class="tag">Langfuse</span></div>
+      <p>Several quantized models co-tenanted on one accelerator, vision-language among them, with memory and cache budgets tuned by hand. Serves the engineering teams of three companies, with a mesh VPN, edge routing and tracing so we can see what the models did.</p>
+      <div class="tags"><span class="tag">vLLM</span><span class="tag">Ollama</span><span class="tag">quantized serving</span><span class="tag">Headscale</span><span class="tag">Traefik</span><span class="tag">Langfuse</span></div>
     </div>
   </article>
 
@@ -356,7 +356,7 @@ footer a:hover{color:var(--acc)}
     </div>
     <div class="cell">
       <strong><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>Inference</strong>
-      <span>vLLM, Ollama, quantized serving (AWQ, QAT), vision-language models, GPU memory and KV-cache tuning</span>
+      <span>vLLM, Ollama, quantized model serving, vision-language models, GPU memory and cache tuning</span>
     </div>
     <div class="cell">
       <strong><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>Computer vision</strong>
